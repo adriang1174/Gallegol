@@ -81,3 +81,15 @@ $(document).ready(function () {
 	});		
 
 });
+
+function register(email,name) {
+		   $.ajax({
+				 type: "POST",
+				 url: 'http://192.232.253.116/~uv9032/gallegol/register.php',
+				 data : {"email":email,"name":name},
+				 dataType: "json",
+				 success: function(data) {
+						alert("Registro exitoso!");	
+ 				 }
+			   });
+}

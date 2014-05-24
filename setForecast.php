@@ -1,7 +1,8 @@
 <?php
 							
 							$errorDB = false;
-							$link = mysqli_connect('localhost', 'uv9032', 'graphica*123','uv9032_gallegol');
+							require 'db.php';							
+
 							if (mysqli_connect_errno()) {
 							$errorDB = true;
 							}
@@ -37,7 +38,7 @@
 									)																										
 									";
 							$res = mysqli_query($link,$sql);
-							error_log($sql);
+							//error_log($sql);
 							if(!$res)
 								$errorDB = true;
 							
