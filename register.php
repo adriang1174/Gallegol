@@ -1,9 +1,7 @@
 <?php
 							
 							$errorDB = false;
-
 							require 'db.php';
-
 							if (mysqli_connect_errno()) {
 							$errorDB = true;
 							}
