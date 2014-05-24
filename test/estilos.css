@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	height:100%;
+}
+body {
+	margin:0;
+	font-family: 'helvetica';
+	font-size:12px;
+	background: #e6e6e6;
+}
+
+
+strong {
+	font-weight:normal;
+	font-family: 'helvetica';
+}
+
+.container {
+	position:relative;
+	padding:0 30px;
+	max-width:800px;
+	margin:auto;
+}
+
+
+#top .logo {
+	float:left; margin-top:30px;
+}
+
+#top .right {
+	float:right;
+	text-align:right;
+	margin-top:23px;
+}
+
+#top .right img {
+	display:block;
+}
+
+
+#top .right #botonLogin:hover {
+	background-position:bottom;
+}
+
+#principal {
+	display:block;
+	padding:20px 0;
+}
+
+.seccion {
+	background:#ffffff;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color:#808080;
+	margin-bottom:8px;
+}
+
+
+.contenidoSeccion {
+	overflow:hidden;
+	
+	-webkit-transition: all 500ms cubic-bezier(0.665, 0.010, 0.325, 1); /* older webkit */
+	-webkit-transition: all 500ms cubic-bezier(0.665, 0.010, 0.325, 1.005);
+	-moz-transition: all 500ms cubic-bezier(0.665, 0.010, 0.325, 1.005);
+	-o-transition: all 500ms cubic-bezier(0.665, 0.010, 0.325, 1.005);
+	transition: all 500ms cubic-bezier(0.665, 0.010, 0.325, 1.005); /* custom */
+
+	-webkit-transition-timing-function: cubic-bezier(0.665, 0.010, 0.325, 1); /* older webkit */
+	-webkit-transition-timing-function: cubic-bezier(0.665, 0.010, 0.325, 1.005);
+	-moz-transition-timing-function: cubic-bezier(0.665, 0.010, 0.325, 1.005);
+	-o-transition-timing-function: cubic-bezier(0.665, 0.010, 0.325, 1.005);
+	transition-timing-function: cubic-bezier(0.665, 0.010, 0.325, 1.005); /* custom */
+}
+
+.contenidoSeccion .container {
+	padding:47px  30px 30px 30px;
+}
+
+#fotoComunidad {
+	width:100%;
+}
+
+.row {
+	display: table-row;
+}
+.cell {
+	display: table-cell;
+	width:50%;
+}
+.botonMasInfo {
+	text-align:right;
+	display:block;
+	margin-top:20px;
+}
+
+.botonGenerico, .botonGenericoVerde {
+	float:right;
+	margin-right: 28%;
+	background-color:#64cbee;
+	padding:13px 25px;
+	font-size:1.5em;
+	color:#FFF;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display:inline-block;
+	transition: all 0.2s;
+	-webkit-transition:  all 0.2s;
+}
+.botonGenericoVerde {
+	background-color:#48c26d;
+}
+.botonGenerico:hover {
+	background-color:#6eecff;
+}
+.botonGenericoVerde:hover {
+	background-color:#57eb84;
+}
+.botonGenerico img, .botonGenericoVerde img {
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:10px;
+	margin-top:-5px;
+}
+
+.division {
+	border-bottom:1px solid #b3b3b3;
+	padding-top:20px;
+	margin-bottom:20px;
+}
+
+#inline2, #inline3, #inline4, #inline{
+margin-top:50px;
+}
+
+#txtRes{
+	display:inline-block;
+	margin-bottom:10px;
+	color: #FF0000;
+	margin-left: 150px;
+	font-size: 12px;
+	padding:8px 15px;
+}
+
+#txtRes2{
+	display:inline-block;
+	margin-bottom:10px;
+	color: #FF0000;
+	margin-left: 150px;
+	font-size: 12px;
+	padding:8px 15px;
+}
+#invitarForm {
+	text-align:right;
+}
+
+ .tag {
+	display:inline-block;
+	float: left;
+	vertical-align:middle;
+	font-size:1.5em;
+	text-align:right;
+	width:15%;
+	margin-right:5%;
+	margin-bottom:10px;
+}
+.campo {
+	display:inline-block;
+	vertical-align:middle;
+	font-size:1.5em;
+	padding:8px 15px;
+	width:50%;
+	margin-bottom:10px;
+	background:#FFFFFF;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-family: 'helvetica';
+	color:#37414d;
+}
+#invitarForm #botonEnviarInvitacion {
+	margin-top:20px;
+}
+#invitarForm #botonEnviarInvitacion img {
+	margin-right:0px;
+	margin-left:10px;
+}
